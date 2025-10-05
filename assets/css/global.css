@@ -53,6 +53,17 @@ h1, h2, h3, h4, h5, h6,
     line-break: unset;
 }
 
+.portrait-figure {
+    width: 200px;
+}
+
+.portrait-caption {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
 .no-break {
     white-space: nowrap;
 }
