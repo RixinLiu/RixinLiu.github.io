@@ -16,16 +16,20 @@ twitter: _mango_ognam_  # Do not include the '@' symbol
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hey, I'm Rixin, you can call me Ryan. 
-    I'm a first-year CS PhD student at Rice University advised by <a href="https://jxing.me/" target="_blank">Jiarong Xing</a>.
-    I got my B.E. in Computer Science and Technology from South China University of Technology in 2025.
+    Hey, I'm Rixin, but you can call me Ryan. 
+    I'm a first-year CS PhD student at Rice University advised by Prof. <a href="https://jxing.me/" target="_blank">Jiarong Xing</a>.
+    Prior to this, I got my B.E. in Computer Science and Technology from South China University of Technology in 2025.
   </p>
   <p>
     About my research,
-    overall, I’m a system researcher.
+    overall, I’m a <strong>system researcher</strong>.
     My earlier work focused on high-performance networking, particularly on RDMA, programmable switches, and DPUs. 
-    Currently, my research centers on MLSys, aiming to address system and algorithmic challenges in a future dominated by specialized models. 
-    My recent work primarily involves GPUs and LLM routing.
+    Currently, my research centers on MLSys, aiming to address system and algorithmic challenges in a future dominated by specialized language models. 
+    My recent work primarily involves <strong>GPUs</strong> and <strong>LLM routing</strong>.
+  </p>
+  <p>
+    I’m always happy to connect and discuss possible collaborations.
+    Please don’t hesitate to contact me if you’re interested in related topics.
   </p>
 
 portrait_url: /assets/images/photos/portrait.png
