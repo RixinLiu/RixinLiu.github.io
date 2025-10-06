@@ -55,9 +55,9 @@ education:
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Recipient of the "Vibe Coding Excellence Award"
+  date: 2025
+- name: Awarded "Best Use of Ctrl-C Ctrl-V"
+  date: 2025
+- name: Recipient of the “Accidentally Fixed the Bug” Honor
+  date: 2025
