@@ -14,7 +14,7 @@ cover:          /assets/images/covers/WhoRoute.png
 authors:
   - Jiayi Yuan*
   - Yifan Lu*
-  - Rixin Liu*
+  - Rixin Liu
   - Yu-Neng Chuang
   - Hongyi Liu
   - SHaochen Zhong
