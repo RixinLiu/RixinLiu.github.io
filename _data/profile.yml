@@ -1,9 +1,9 @@
-primary_name: "Rixin (Ryan) Liu"
+primary_name: "Rixin Liu"
 secondary_name: ""
-navbar_name: "Rixin (Ryan) Liu"
+navbar_name: "Rixin Liu"
 
 email: "Rixin.Liu@rice.edu"
-# cv_link: link-to-your-cv-file
+cv_link: /assets/files/Rixin_Liu_CV.pdf
 gscholar: TuCicIgAAAAJ  # Google Scholar author ID (from scholar.google.com/citations?user=...)
 github: RixinLiu
 twitter: _mango_ognam_  # Do not include the '@' symbol
@@ -21,10 +21,14 @@ short_bio: >-
     Prior to this, I got my B.E. in Computer Science and Technology from South China University of Technology in 2025.
   </p>
   <p>
-    About my research,
-    overall, I’m a <strong>system researcher</strong>.
-    My earlier work focused on high-performance networking, particularly on RDMA, programmable switches, and DPUs. 
-    Currently, my research aims to answer this question: <strong>"How should we manage GPU(s) when it/they must serve more than one LLM inference workload?"</strong>.
+    My research centers on one question: <strong>How should we manage GPUs when they must serve more than one workload?</strong>
+    I approach it through elastic GPU memory management, fault isolation and recovery, and multi-model serving. 
+    I am broadly interested in building AI infrastructure for training, inference, and RL.
+  </p>
+  <p>
+    I currently lead and maintain <a href="https://github.com/ovg-project/kvcached" target="_blank">kvcached</a>,
+    a virtualized, elastic KV cache for dynamic GPU sharing that integrates with vLLM and SGLang
+    and is deployed at scale by Tencent and adopted by <a href="https://github.com/rh-aiservices-bu/sardeenz" target="_blank">Red Hat's Sardeenz</a> for dynamic multi-model serving.
   </p>
   <p>
     I’m always happy to connect and discuss possible collaborations.
@@ -53,6 +57,22 @@ education:
 #   logo: /assets/images/badges/PKU_red.png
 #   position: Research Intern
 #   date: Sep. 2019 - Jul. 2021
+
+projects:
+- name: kvcached
+  repo: ovg-project/kvcached
+  role: Project Lead & Maintainer
+  date: May 2026 - present
+  description: >-
+    Virtualized, elastic KV cache for dynamic GPU sharing across colocated LLMs; integrates with <strong>vLLM</strong> and <strong>SGLang</strong>.
+    2&ndash;28&times; lower TTFT when serving three Llama-3.1-8B models on one A100 versus static memory reservation.
+    Deployed at scale by <strong>Tencent</strong> and adopted by <a href="https://github.com/rh-aiservices-bu/sardeenz" target="_blank">Red Hat's Sardeenz</a>.
+- name: RouterArena
+  repo: RouteWorks/RouterArena
+  role: Co-developer
+  description: >-
+    Open evaluation platform and public leaderboard for LLM routers across 9 domains and 44 categories,
+    spanning 33 academic and commercial routers; adopted by the <strong>vLLM Semantic Router</strong> project.
 
 awards:
 - name: Recipient of the "Vibe Coding Excellence Award"

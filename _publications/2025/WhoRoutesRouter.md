@@ -2,7 +2,7 @@
 title:          "Who Routes the Router: Rethinking the Evaluation of LLM Routing Systems"
 date:           2025-09-21 21:13:00- +0000
 selected:       true
-pub:            "NeurIPS 2025 Workshop LLM Evaluation."
+pub:            "NeurIPS Workshop on Evaluating the Evolving LLM Lifecycle"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
@@ -17,7 +17,7 @@ authors:
   - Rixin Liu
   - Yu-Neng Chuang
   - Hongyi Liu
-  - SHaochen Zhong
+  - Shaochen Zhong
   - Yang Sui
   - Guanchu Wang
   - Jiarong Xing
